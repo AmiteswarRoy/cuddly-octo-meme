@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<action-mappings xmlns:monitor="http://www.w3.org/TR/html4/">
+
+<pageActions>
+  <action id="auth-sorry-go">
+    <description>maintenance page</description>
+    <isForward>false</isForward>
+    <uri>https://buy.barrons.com/offers/storedown</uri>
+  </action>
+  <action id="retire-confirm-buy">
+    <description>Rewrite for confirmation page</description>
+    <isForward>false</isForward>
+    <uri>https://id.wsj.com/access/pages/wsj/us/maintenance.html?mg=main-id-wsj</uri>
+  </action>
+</pageActions>
+
+<matchLists>
+  <matchList name="black-berry">
+    <match><header name="User-Agent">Black[Bb]erry</header></match>
+  </matchList>
+  <matchList name="confirm-match-condition">
+    <match>
+      <header name="Host">confirm\.barrons\.com</header>
+    </match>
+  </matchList>
+</matchLists>
+
+<pathMappings>
+  <mapping path="^/shopandbuy/order/remove">
+    <preAuthAction>auth-sorry-go</preAuthAction>
+  </mapping>
+  <mapping path="^/marketplace/remove" matchLists="confirm-match-condition">
+    <preAuthAction>retire-confirm-buy</preAuthAction>
+  </mapping>
+</pathMappings>
+
+</action-mappings>
