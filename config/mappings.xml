@@ -12,6 +12,11 @@
     <isForward>false</isForward>
     <uri>https://id.wsj.com/access/pages/wsj/us/maintenance.html?mg=main-id-wsj</uri>
   </action>
+  <action id="vanity-router-entry-SJhx86Z7_">
+    <description>Entry added using vanity-router</description>
+    <isForward>false</isForward>
+    <uri>cccccc</uri>
+  </action>
 </pageActions>
 
 <matchLists>
@@ -31,6 +36,9 @@
   </mapping>
   <mapping path="^/marketplace/remove" matchLists="confirm-match-condition">
     <preAuthAction>retire-confirm-buy</preAuthAction>
+  </mapping>
+  <mapping path="^zzzzzzzz">
+    <preAuthAction>vanity-router-entry-SJhx86Z7_</preAuthAction>
   </mapping>
 </pathMappings>
 
