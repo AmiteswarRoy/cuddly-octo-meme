@@ -37,7 +37,7 @@
   <mapping path="^/marketplace/remove" matchLists="confirm-match-condition">
     <preAuthAction>retire-confirm-buy</preAuthAction>
   </mapping>
-  <mapping path="^zzzzzzzz">
+  <mapping path="^/zzzzzzzz">
     <preAuthAction>vanity-router-entry-SJhx86Z7_</preAuthAction>
   </mapping>
 </pathMappings>
