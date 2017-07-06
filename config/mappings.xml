@@ -11,7 +11,7 @@
     <description>Rewrite for confirmation page</description>
     <isForward>false</isForward>
     <uri>https://id.wsj.com/access/pages/wsj/us/maintenance.html?mg=main-id-wsj</uri>
-  </action><action id="vanity-router-entry-rJwGCvbEb"><description>Entry created by vanity-router-entry-rJwGCvbEb</description><isForward>false</isForward><uri>https://buy.barrons.com/offers/storedown</uri></action></pageActions>
+  </action><action id="vanity-router-entry-rJwGCvbEb"><description>Entry created by vanity-router-entry-rJwGCvbEb</description><isForward>false</isForward><uri>https://buy.barrons.com/offers/storedown/111</uri></action></pageActions>
 
 <matchLists>
   <matchList name="black-berry">
