@@ -11,7 +11,7 @@
     <description>Rewrite for confirmation page</description>
     <isForward>false</isForward>
     <uri>https://id.wsj.com/access/pages/wsj/us/maintenance.html?mg=main-id-wsj</uri>
-  </action></pageActions>
+  </action><action id="vanity-router-entry-SJbaHWnVb"><description>Entry created by vanity-router-entry-SJbaHWnVb</description><isForward>false</isForward><uri>https://buy.barrons.com/offers/storedown/568</uri></action></pageActions>
 
 <matchLists>
   <matchList name="black-berry">
@@ -30,6 +30,6 @@
   </mapping>
   <mapping path="^/marketplace/remove" matchLists="confirm-match-condition">
     <preAuthAction>retire-confirm-buy</preAuthAction>
-    </mapping></pathMappings>
+    </mapping><mapping path="^/offers/fathersday"><preAuthAction>vanity-router-entry-SJbaHWnVb</preAuthAction></mapping></pathMappings>
 
 </action-mappings>
