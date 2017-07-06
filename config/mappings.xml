@@ -11,7 +11,7 @@
     <description>Rewrite for confirmation page</description>
     <isForward>false</isForward>
     <uri>https://id.wsj.com/access/pages/wsj/us/maintenance.html?mg=main-id-wsj</uri>
-  </action><action id="vanity-router-entry-SJbaHWnVb"><description>Entry created by vanity-router-entry-SJbaHWnVb</description><isForward>false</isForward><uri>https://buy.barrons.com/offers/storedown/568</uri></action><action id="vanity-router-entry-Hy9fMMhV_"><description>Entry created by vanity-router-entry-Hy9fMMhV_</description><isForward>false</isForward><uri>https://buy.barrons.com/offers/storedown/1234</uri></action></pageActions>
+  </action><action id="vanity-router-entry-SJbaHWnVb"><description>Entry created by vanity-router-entry-SJbaHWnVb</description><isForward>false</isForward><uri>https://buy.barrons.com/offers/storedown/568</uri></action><action id="vanity-router-entry-Hy9fMMhV_"><description>Entry created by vanity-router-entry-Hy9fMMhV_</description><isForward>false</isForward><uri>https://buy.barrons.com/offers/storedown/1234</uri></action><action id="vanity-router-entry-SkNvozh4W"><description>Entry created by vanity-router-entry-SkNvozh4W</description><isForward>false</isForward><uri>https://buy.barrons.com/offers/storedown/99</uri></action></pageActions>
 
 <matchLists>
   <matchList name="black-berry">
@@ -30,6 +30,6 @@
   </mapping>
   <mapping path="^/marketplace/remove" matchLists="confirm-match-condition">
     <preAuthAction>retire-confirm-buy</preAuthAction>
-    </mapping><mapping path="^/offers/fathersday"><preAuthAction>vanity-router-entry-SJbaHWnVb</preAuthAction></mapping><mapping path="^/offers/labourday"><preAuthAction>vanity-router-entry-Hy9fMMhV_</preAuthAction></mapping></pathMappings>
+    </mapping><mapping path="^/offers/fathersday"><preAuthAction>vanity-router-entry-SJbaHWnVb</preAuthAction></mapping><mapping path="^/offers/labourday"><preAuthAction>vanity-router-entry-Hy9fMMhV_</preAuthAction></mapping><mapping path="^/offers/something"><preAuthAction>vanity-router-entry-SkNvozh4W</preAuthAction></mapping></pathMappings>
 
 </action-mappings>
