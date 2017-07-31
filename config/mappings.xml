@@ -25,10 +25,10 @@
 </matchLists>
 
 <pathMappings>
-  <mapping path="^/shopandbuy/order/remove">
+  <mapping path="^/offers/order/remove">
     <preAuthAction>auth-sorry-go</preAuthAction>
   </mapping>
-  <mapping path="^/marketplace/remove" matchLists="confirm-match-condition">
+  <mapping path="^/offers/remove" matchLists="confirm-match-condition">
     <preAuthAction>retire-confirm-buy</preAuthAction>
     </mapping><mapping path="^/offers/fathersday"><preAuthAction>vanity-router-entry-SJbaHWnVb</preAuthAction></mapping><mapping path="^/offers/labourday"><preAuthAction>vanity-router-entry-Hy9fMMhV_</preAuthAction></mapping><mapping path="^/offers/something"><preAuthAction>vanity-router-entry-SkNvozh4W</preAuthAction></mapping></pathMappings>
 
