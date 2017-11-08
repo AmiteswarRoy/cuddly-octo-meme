@@ -18,6 +18,6 @@
 
 <pathMappings>
   
-  <mapping path="^/offers/add/new"><preAuthAction/></mapping><mapping path="^/offers/temp/workday" activity="insert"><preAuthAction>vanity-router-entry-rk_QHAgyM</preAuthAction></mapping></pathMappings>
+  </pathMappings>
 
 </action-mappings>
